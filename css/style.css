@@ -64,7 +64,7 @@ header {
 
 }
 
-h1 {
+.h1-blue {
     color: #0084fd;
     padding-top: 15%;
     padding-left: 10%;
@@ -116,7 +116,7 @@ p {
 
 /*STRATEGIC PLANNING*/
 
-.container-strategic {
+.container-violet {
     background-color: #9792e4;
     margin-bottom: 80px;
 
@@ -161,6 +161,7 @@ p {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 8%;
 }
 
 .h1-testimonials {
@@ -170,4 +171,47 @@ p {
 .propic {
     padding-top: 20px;
     border-radius: 50% 50%
+}
+
+/*BENEFICTS*/
+
+.beneficts {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.h1-beneficts {
+    padding-top: 20%;
+    color: white;
+    text-align: center;
+    font-size: 33px;
+}
+
+.h2-beneficts {
+    color: #9792e4;
+    font-size: 60px;
+    padding-left: 4%;
+}
+
+.h3-beneficts {
+    color: #9792e4;
+    padding-top: 5%;
+    padding-left: 4%;
+}
+
+.more {
+    background-color: #9792e4;
+    color: white;
+    padding: 5px 45px;
+    font-size: larger;
+    margin-left: 20%;
+    border-radius: 45px;
 }
