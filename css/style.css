@@ -67,6 +67,7 @@ p {
     padding-bottom: 10%;
     padding-left: 10%;
     line-height: 25px;
+
 }
 
 #appstore {
@@ -81,4 +82,24 @@ p {
 
 .phone {
     padding-top: 10%;
+}
+
+/* CLEAN CODE */
+
+.clean {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.icon {
+    color: #0084fd;
+}
+
+
+
+.text-justify-center {
+    text-align: center;
+    padding-right: 10%;
 }
