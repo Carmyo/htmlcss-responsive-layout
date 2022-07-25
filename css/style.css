@@ -6,6 +6,7 @@
 
 body {
     font-family: sans-serif;
+    width: 375px;
 }
 
 /* debug */
@@ -28,4 +29,56 @@ header {
 
 .hamburger {
     color: white;
+}
+
+/* MAIN */
+
+.comtainer {
+
+    width: 375px;
+}
+
+/* DEMO */
+
+.demo {
+    background-color: #b5ddff;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    border-radius: 20px;
+    /* converti pxs in % */
+}
+
+.demo-content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+    color: #0084fd;
+    padding-top: 15%;
+    padding-left: 10%;
+}
+
+p {
+    color: #5a6e7f;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    line-height: 25px;
+}
+
+#appstore {
+    background-color: #0084fd;
+    color: white;
+    margin-left: 10%;
+    margin-right: 30%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 20px;
+}
+
+.phone {
+    padding-top: 10%;
 }
