@@ -119,6 +119,7 @@ p {
 .container-violet {
     background-color: #9792e4;
     margin-bottom: 80px;
+    padding-bottom: 60px;
 
 }
 
@@ -131,6 +132,10 @@ p {
 
 .strategic {
     padding-right: 10%;
+}
+
+.h-strategic {
+    padding-left: 10%;
 }
 
 
@@ -186,6 +191,7 @@ p {
     margin-right: 20px;
     margin-top: 40px;
     border-radius: 20px;
+
 }
 
 .h1-beneficts {
@@ -213,5 +219,32 @@ p {
     padding: 5px 45px;
     font-size: larger;
     margin-left: 20%;
+    border-radius: 45px;
+}
+
+/*ABOUT*/
+
+.find-me {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.h-about {
+    color: #9792e4;
+    padding-left: 10%;
+}
+
+.p-about {
+    color: #9792e4;
+    font-size: larger;
+}
+
+.find {
+    background-color: #9792e4;
+    color: white;
+    padding: 5px 45px;
+    font-size: larger;
+    margin-left: 10%;
     border-radius: 45px;
 }
