@@ -118,6 +118,7 @@ p {
 
 .container-strategic {
     background-color: #9792e4;
+    margin-bottom: 80px;
 
 }
 
@@ -137,8 +138,36 @@ p {
     background-color: white;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 40px;
+    margin-top: 10px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+}
+
+.arrow {
+    margin: 0 45%;
+    border-radius: 8px;
+    background-color: #9792e4;
+    padding: 5px 0;
+    margin-bottom: 5%;
+}
+
+/*TESTIMONIALS*/
+.testimonials {
+    background-color: #9792e4;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h1-testimonials {
+    color: #9792e4;
+}
+
+.propic {
+    padding-top: 20px;
+    border-radius: 50% 50%
 }
