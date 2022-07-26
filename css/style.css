@@ -6,14 +6,14 @@
 
 body {
     font-family: sans-serif;
-    width: 375px;
+
+    /* debug */
 }
 
-/* debug */
 
-header {
-    height: 100px;
-}
+
+
+
 
 /* utility */
 .text-white {
@@ -24,9 +24,15 @@ header {
     color: black;
 }
 
+.border-radius {
+    border-radius: 30px;
+}
+
+
 /* HEADER */
 
 header {
+    height: 100px;
     background-color: hsl(209deg 100% 50%);
     display: flex;
     align-items: center;
@@ -42,9 +48,9 @@ header {
 
 /* MAIN */
 
-.comtainer {
+.container {
 
-    width: 375px;
+    width: 100%;
 }
 
 /* DEMO */
@@ -68,6 +74,7 @@ header {
     color: #0084fd;
     padding-top: 15%;
     padding-left: 10%;
+    font-size: 30px;
 }
 
 p {
@@ -75,6 +82,7 @@ p {
     padding-top: 10%;
     padding-bottom: 10%;
     padding-left: 10%;
+    padding-right: 10%;
     line-height: 25px;
 
 }
@@ -86,7 +94,8 @@ p {
     margin-right: 30%;
     padding-top: 3%;
     padding-bottom: 3%;
-    border-radius: 20px;
+
+    font-size: 150%;
 }
 
 .phone {
@@ -174,6 +183,7 @@ p {
 }
 
 .propic {
+
     padding-top: 20px;
     border-radius: 50% 50%
 }
@@ -185,7 +195,6 @@ p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-top: 10%;
     padding-bottom: 10%;
     margin-left: 20px;
     margin-right: 20px;
@@ -193,6 +202,8 @@ p {
     border-radius: 20px;
 
 }
+
+.p-beneficts {}
 
 .h1-beneficts {
     padding-top: 20%;
@@ -204,13 +215,16 @@ p {
 .h2-beneficts {
     color: #9792e4;
     font-size: 60px;
-    padding-left: 4%;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .h3-beneficts {
     color: #9792e4;
     padding-top: 5%;
-    padding-left: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .more {
@@ -218,8 +232,7 @@ p {
     color: white;
     padding: 5px 45px;
     font-size: larger;
-    margin-left: 20%;
-    border-radius: 45px;
+    margin-left: 10%;
 }
 
 /*ABOUT*/
@@ -232,12 +245,19 @@ p {
 
 .h-about {
     color: #9792e4;
+    font-size: 50px;
     padding-left: 10%;
 }
 
 .p-about {
     color: #9792e4;
-    font-size: larger;
+    font-size: 35px;
+    line-height: 150%;
+}
+
+.propic-about {
+    width: 100%;
+    border-radius: 50%;
 }
 
 .find {
@@ -246,10 +266,15 @@ p {
     padding: 5px 45px;
     font-size: larger;
     margin-left: 10%;
-    border-radius: 45px;
 }
 
 
+/*FOOTER*/
+footer {
+    margin-top: 20%;
+}
+
 .footer {
+    background-color: black;
     text-align: center;
 }
